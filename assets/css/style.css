@@ -11,15 +11,15 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
-}
+} 
 
 a {
-  color: #149ddd;
+  color: hotpink;
   text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: hotpink;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: hotpink;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #2eafec;
+  background: hotpink;
   color: #fff;
 }
 .back-to-top.active {
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #041122;
+  background: #252628;
   overflow-y: auto;
 }
 #header .profile.img {
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
+  background: rgb(43, 40, 40);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: hotpink;
   color: #fff;
   text-decoration: none;
 }
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: hotpink;
 }
 
 /* Mobile Navigation */
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color:hotpink ;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid hotpink;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -275,7 +275,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: hotpink;
 }
 .section-title h2::after {
   content: "";
@@ -283,7 +283,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: rgb(90, 87, 87);
   bottom: 0;
   left: 0;
 }
@@ -297,7 +297,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: hotpink;
 }
 .about .content ul {
   list-style: none;
@@ -396,7 +396,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: hotpink;
 }
 
 /*--------------------------------------------------------------
@@ -481,7 +481,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: hotpink;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
